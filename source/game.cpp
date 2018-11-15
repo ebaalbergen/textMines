@@ -70,9 +70,7 @@ bool MinesGame::nextGameStep()
             return true;
         case 'D':
             return removeGround(coordinate);
-    }   
-    
-    //return true;
+    }
 }
 
 void MinesGame::setChar(Vector2 input, int_8 character)
